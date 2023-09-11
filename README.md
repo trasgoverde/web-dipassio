@@ -1,6 +1,6 @@
-<a href="https://precedent.dev">
-  <img alt="Precedent – Building blocks for your Next project" src="https://precedent.dev/opengraph-image">
-  <h1 align="center">Precedent</h1>
+<a href="https://dipass.io/en">
+  <img alt="Precedent – Building Devs for your Next Project" src="dipass.io/logo">
+  <h1 align="center">Dipassio</h1>
 </a>
 
 <p align="center">
@@ -8,11 +8,11 @@
 </p>
 
 <p align="center">
-  <a href="https://twitter.com/steventey">
-    <img src="https://img.shields.io/twitter/follow/steventey?style=flat&label=steventey&logo=twitter&color=0bf&logoColor=fff" alt="Steven Tey Twitter follower count" />
+  <a href="https://twitter.com/dipass_io">
+    <img src="https://img.shields.io/twitter/follow/steventey?style=flat&label=dipass_io&logo=twitter&color=0bf&logoColor=fff" alt="Dipass.io Twitter follower count" />
   </a>
-  <a href="https://github.com/steven-tey/precedent">
-    <img src="https://img.shields.io/github/stars/steven-tey/precedent?label=steven-tey%2Fprecedent" alt="Precedent repo star count" />
+  <a href="https://github.com/dipass-io">
+    <img src="" alt="Precedent repo star count" />
   </a>
 </p>
 
@@ -37,7 +37,7 @@ You can deploy this template to Vercel with the button below:
 You can also clone & create this repo locally with the following command:
 
 ```bash
-npx create-next-app precedent --example "https://github.com/steven-tey/precedent"
+npx create-next-app precedent --example "https://github.com/trasgoverde/web-dipassio"
 ```
 
 ## Tech Stack + Features
@@ -87,4 +87,4 @@ https://user-images.githubusercontent.com/28986134/212368288-12f41e37-aa8c-4e0a-
 
 ## Author
 
-- Steven Tey ([@steventey](https://twitter.com/steventey))
+- Dipassio ([@dipass_io](https://twitter.com/dipass_io))
