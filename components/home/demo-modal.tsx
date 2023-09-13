@@ -23,7 +23,7 @@ const DemoModal = ({
             <Image
               src="/rhinologo best.jpg"
               alt="Dipassio Logo"
-              className="h-10 w-10 rounded-full"
+              className="h-10 w-10 full"
               width={20}
               height={20}
             />

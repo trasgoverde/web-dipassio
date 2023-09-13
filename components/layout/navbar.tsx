@@ -32,6 +32,21 @@ export default function NavBar({ session }: { session: Session | null }) {
             ></Image>
             <p>Dipassio</p>
           </Link>
+          <Link href="/" className="flex items-center font-display text-4sm">
+            <p>Product</p>
+          </Link>
+          <Link href="/" className="flex items-center font-display text-4sm">
+            <p>Documentation</p>
+          </Link>
+          <Link href="/" className="flex items-center font-display text-4sm">
+            <p>Company</p>
+          </Link>
+          <Link href="/" className="flex items-center font-display text-4sm">
+            <p>For Startups</p>
+          </Link>
+          <Link href="/" className="flex items-center font-display text-4sm">
+            <p>Pricing</p>
+          </Link>
           <div>
             {session ? (
               <UserDropdown session={session} />
@@ -40,7 +55,7 @@ export default function NavBar({ session }: { session: Session | null }) {
                 className="rounded-full border border-black bg-black p-1.5 px-4 text-sm text-white transition-all hover:bg-white hover:text-black"
                 onClick={() => setShowSignInModal(true)}
               >
-                Sign In
+                Sign Up
               </button>
             )}
           </div>

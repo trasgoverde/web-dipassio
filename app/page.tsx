@@ -24,7 +24,7 @@ export default async function Home() {
     .then((res) => res.json())
     .catch((e) => console.log(e));
 
-  return (
+  return ( 
     <>
       <div className="z-10 w-full max-w-xl px-5 xl:px-0">
         <a
@@ -42,15 +42,20 @@ export default async function Home() {
           className="animate-fade-up bg-gradient-to-br from-black to-stone-500 bg-clip-text text-center font-display text-4xl font-bold tracking-[-0.02em] text-transparent opacity-0 drop-shadow-sm md:text-7xl md:leading-[5rem]"
           style={{ animationDelay: "0.15s", animationFillMode: "forwards" }}
         >
-          <Balancer>Building Devs for your Next Project</Balancer>
+          <Balancer>We Build Digital Solutions</Balancer>
         </h1>
         <p
           className="mt-6 animate-fade-up text-center text-gray-500 opacity-0 md:text-xl"
           style={{ animationDelay: "0.25s", animationFillMode: "forwards" }}
         >
           <Balancer>
-            An opinionated collection of Devs for
-            your Next Project.
+          Dipassio is more than a Digital Agency. 
+          </Balancer>
+          <Balancer> 
+          We develop complete end-to-end digital solutions.
+          </Balancer>
+          <Balancer>
+          Design | Develop | Delivery | Deploy
           </Balancer>
         </p>
         <div
@@ -77,7 +82,7 @@ export default async function Home() {
                 strokeLinejoin="round"
               />
             </svg>
-            <p>Deploy to Vercel</p>
+            <p>Start Building with us</p>
           </a>
           <a
             className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-5 py-2 text-sm text-gray-600 shadow-md transition-colors hover:border-gray-800"
@@ -90,7 +95,7 @@ export default async function Home() {
               <span className="hidden sm:inline-block">Star on</span> GitHub{" "}
               <span className="font-semibold">{nFormatter(stars)}</span>
             </p>
-          </a>
+          </a> 
         </div>
       </div>
       <div className="my-10 grid w-full max-w-screen-xl animate-fade-up grid-cols-1 gap-5 px-5 md:grid-cols-3 xl:px-0">
