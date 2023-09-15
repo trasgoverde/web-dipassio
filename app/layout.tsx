@@ -10,12 +10,16 @@ export const metadata = {
   title: "Dipassio - Building Devs for your Next Project",
   description:
     "Precedent is the all-in-one solution for your Next.js project. It includes a design system, authentication, analytics, and more.",
-  twitter: {
+    image: {
+      src: "/favicon.ico", // Replace with the actual path to your favicon.ico
+      alt: "Dipassio Favicon", // Replace with an appropriate alt text
+    },
+    twitter: {
     card: "summary_large_image",
     title: "Dipassio - Building Devs for your Next Project",
     description:
       "Dipassio is the all-in-one solution for your Next.js project. It includes a design system, authentication, analytics, and more.",
-    creator: "@steventey",
+    creator: "@trasgoverde",
   },
   metadataBase: new URL("https://dipass.io/en"),
   themeColor: "#FFF",

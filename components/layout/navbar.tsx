@@ -22,7 +22,7 @@ export default function NavBar({ session }: { session: Session | null }) {
         } z-30 transition-all`}
       >
         <div className="mx-5 flex h-16 max-w-screen-xl items-center justify-between w-full">
-          <Link href="/" className="flex items-center font-display text-2xl">
+          <Link href="/" className="flex items-center font-display text-4xl border-l-4 bold">
             <Image
               src="/rhinologo best.jpg"
               alt="Dipassio logo"
@@ -30,21 +30,21 @@ export default function NavBar({ session }: { session: Session | null }) {
               height="30"
               className="mr-2 rounded-sm"
             ></Image>
-            <p>Dipassio</p>
+            <p>DIPASSIO</p>
           </Link>
-          <Link href="/" className="flex items-center font-display text-4sm">
+          <Link href="/product" className="flex items-center font-display text-4sm">
             <p>Product</p>
           </Link>
-          <Link href="/" className="flex items-center font-display text-4sm">
+          <Link href="/documentation" className="flex items-center font-display text-4sm">
             <p>Documentation</p>
           </Link>
-          <Link href="/" className="flex items-center font-display text-4sm">
+          <Link href="/company" className="flex items-center font-display text-4sm">
             <p>Company</p>
           </Link>
-          <Link href="/" className="flex items-center font-display text-4sm">
+          <Link href="/startups" className="flex items-center font-display text-4sm">
             <p>For Startups</p>
           </Link>
-          <Link href="/" className="flex items-center font-display text-4sm">
+          <Link href="/pricing" className="flex items-center font-display text-4sm">
             <p>Pricing</p>
           </Link>
           <div>
